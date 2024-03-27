@@ -12,6 +12,8 @@ FetchContent_Declare(
     assemblyline
     GIT_REPOSITORY
         "https://github.com/robleh/assemblyline.git"
+    GIT_TAG
+        "main"
 )
 FetchContent_MakeAvailable(assemblyline)
 
